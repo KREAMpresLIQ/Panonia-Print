@@ -7,6 +7,7 @@
 
 body{
   font-family: "Open Sans", sans-serif;
+  /* font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace; */
   color:#444444;
 }
 
@@ -27,6 +28,8 @@ h4,
 h5,
 h6 {
   font-family: "Raleway", sans-serif;
+  /* font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace; */
+
 }
 
 
@@ -67,6 +70,11 @@ h6 {
   max-height: 40px;
 }
 
+#header .img-fluid-language{
+  width:2vh;
+  height: 2vh;
+  padding:auto;
+}
 
 
 
