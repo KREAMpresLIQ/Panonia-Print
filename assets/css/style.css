@@ -71,13 +71,33 @@ h6 {
 }
 
 #header .img-fluid-language{
-  width:2vh;
-  height: 2vh;
-  padding:auto;
+  width:3vh;
+  height: 3vh;
+  /* padding:auto; */
 }
 
+@media (max-width: 1366px) {
+#header .language-first{
+  margin:auto;
+  padding:0 0 0px 10px;
+}
 
+#header .language-second{
+  margin:auto;
+  padding:0 0 0px 38px;
+  position: relative;
+}
+#header .img-fluid-language{
+  width:2vh;
+  height: 2vh;
+}
+}
 
+#header .img-fluid-language:hover{
+  /* opacity: 0.2; */
+  filter: contrast(100%) brightness(50%);
+  /* box-shadow: 0px 0px 0px 0px rgba(255,255,255,.5); */
+}
 
 /*--------------------------------------------------------------
 # Navigation Menu
