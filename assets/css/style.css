@@ -85,7 +85,7 @@ h6 {
 #header .language-second{
   margin:auto;
   padding:0 0 0px 38px;
-  position: relative;
+  /* position: relative; */
 }
 #header .img-fluid-language{
   width:2vh;
